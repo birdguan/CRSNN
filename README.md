@@ -24,4 +24,4 @@ Unsupervised Conditional Reflex Learning Based on Convolutional Spiking Neural N
 ### E. Generalization evaluation
 ![generaliztion](images/generalization_evaluation.jpg)
 ### F. Robustness evaluation
-![robustness](images/robustness.png)
+![robustness](images/robustness.jpg)
