@@ -11,6 +11,23 @@ Unsupervised Conditional Reflex Learning Based on Convolutional Spiking Neural N
 4. [V-REP (simulation platform)](http://www.coppeliarobotics.com/)
 5. [ROS(interface between simulation environment and the script)](https://www.ros.org/)
 
+## How to run
+1. generate noise-like data with opencv and put the data into *./images*
+2. train the feature-extract unit with the generated noise-like data in an unsupervised manner:
+    ```angular2html
+    python ./feature_extract_unit/train_with_noiselikedata.py
+    ```
+3. train the decision-making unit:
+    ```angular2html
+    python ./decision_making_unit/train.py  
+    ```
+    - parameters of the network can be changed in *./decision_making_unit/parameters.py*
+    
+    - **note:** *./decision_making_unit/environment_1.py* corresponds to scenario 1~3 and *./decision_making_unit/environment_2.py* corresponds to 
+    scenario 4.
+
+
+
 ## Some Results
 ### A. Visualization of the feature-extraction unit
 ![visualization1](images/visualization1.jpg)
