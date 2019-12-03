@@ -42,3 +42,14 @@ Unsupervised Conditional Reflex Learning Based on Convolutional Spiking Neural N
 ![generaliztion](images/generalization_evaluation.jpg)
 ### F. Robustness evaluation
 ![robustness](images/robustness.jpg)
+
+## Acknowledge
+Our work is based on the following works:
+1. SkykeTorch  
+    [[Paper](https://www.frontiersin.org/articles/10.3389/fnins.2019.00625/full) 
+    | 
+    [Project](https://github.com/miladmozafari/SpykeTorch)]
+2. R-STDP  
+    [[Paper](https://ieeexplore.ieee.org/document/8460482/)
+    | 
+    [Project](https://github.com/clamesc/Training-Neural-Networks-for-Event-Based-End-to-End-Robot-Control)]
